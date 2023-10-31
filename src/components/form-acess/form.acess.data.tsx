@@ -2,7 +2,12 @@ import { SyntheticEvent, useState } from 'react';
 import { accesData } from '../../data/repo';
 import './form.access.data.scss';
 
-export function FormAccessData() {
+
+type Props = {
+  status: boolean;
+};
+
+export function FormAccessData({ status }: Props) {
   const [accessState, setAccesState] = useState(accesData);
   const handleSubmit = (event: SyntheticEvent) => {
     event.preventDefault();
@@ -18,7 +23,7 @@ export function FormAccessData() {
   };
 
   return (
-    <section className="onboarding-part-two">
+    <section className={`onboarding-part-two ${status ? 'show' : ''}`}>
       <form className="access-user-form" onSubmit={handleSubmit}>
         <label htmlFor="userName">username</label>
         <input
@@ -52,9 +57,9 @@ export function FormAccessData() {
           <option value="business">business</option>
         </select>
 
-        <input type="submit" value="Retroceder" />
+        <input type="submit" value="Back" />
 
-        <input type="submit" value="Siguiente" />
+        <input type="submit" value="Next" />
       </form>
     </section>
   );

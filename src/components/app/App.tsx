@@ -1,6 +1,5 @@
 import { Header } from '../header/header';
 import { FormPersonalData } from '../form-personal/form.personal';
-import { FormAccessData } from '../form-acess/form.acess.data';
 import './app.scss';
 import { Footer } from '../footer/Footer';
 const title = 'My page';
@@ -12,7 +11,6 @@ function App() {
       <Header title={title}></Header>
       <main>
         <FormPersonalData></FormPersonalData>
-        <FormAccessData></FormAccessData>
       </main>
       <Footer text={text}></Footer>
     </div>

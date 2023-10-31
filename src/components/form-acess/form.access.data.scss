@@ -1,4 +1,5 @@
 .onboarding-part-two {
+  display: none;
   form {
     display: flex;
     flex-direction: column;
@@ -27,4 +28,8 @@
       cursor: pointer;
     }
   }
+}
+
+.show {
+  display: block;
 }
