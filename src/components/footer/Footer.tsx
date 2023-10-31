@@ -1,4 +1,4 @@
-import {} from '.';
+import './footer.scss';
 type Props = {
   text: string;
 };
