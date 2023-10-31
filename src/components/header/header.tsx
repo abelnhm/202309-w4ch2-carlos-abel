@@ -1,3 +1,5 @@
+import './header.scss';
+
 type Props = {
   title: string;
 };

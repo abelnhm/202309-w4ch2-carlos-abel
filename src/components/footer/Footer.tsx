@@ -1,3 +1,4 @@
+import {} from '.';
 type Props = {
   text: string;
 };
