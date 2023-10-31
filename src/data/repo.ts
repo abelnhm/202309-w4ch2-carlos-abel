@@ -1,5 +1,5 @@
-import { User } from '../model/user';
-import { AccesData } from '../model/accesData';
+import { User } from '../models/user';
+import { AccesData } from '../models/accesData';
 
 export const user: User = {
   name: '',
