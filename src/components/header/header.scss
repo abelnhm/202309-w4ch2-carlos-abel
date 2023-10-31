@@ -2,4 +2,8 @@ header {
   display: flex;
   justify-content: center;
   background: powderblue;
+  
+  box-shadow: 0px 4px 23px -7px rgba(79, 79, 79, 0.9);
+  -webkit-box-shadow: 0px 4px 23px -7px rgba(79, 79, 79, 0.9);
+  -moz-box-shadow: 0px 4px 23px -7px rgba(79, 79, 79, 0.9);
 }
