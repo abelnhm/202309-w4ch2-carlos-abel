@@ -1,8 +1,12 @@
 import './form.access.data.scss';
 
-export function FormAccessData() {
+type Props = {
+  status: string;
+};
+
+export function FormAccessData({ status }: Props) {
   return (
-    <section className="onboarding-part-two">
+    <section className={`onboarding-part-two ${status ? 'show' : ''}`}>
       <form>
         <label htmlFor="userName">username</label>
         <input type="text" name="userName" id="userName" />
@@ -17,9 +21,9 @@ export function FormAccessData() {
           <option value="business">business</option>
         </select>
 
-        <input type="submit" value="Retroceder" />
+        <input type="submit" value="Back" />
 
-        <input type="submit" value="Siguiente" />
+        <input type="submit" value="Next" />
       </form>
     </section>
   );

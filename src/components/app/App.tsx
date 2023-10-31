@@ -12,7 +12,6 @@ function App() {
       <Header title={title}></Header>
       <main>
         <FormPersonalData></FormPersonalData>
-        <FormAccessData></FormAccessData>
       </main>
       <Footer text={text}></Footer>
     </div>
