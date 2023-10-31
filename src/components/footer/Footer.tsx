@@ -5,8 +5,8 @@ type Props = {
 
 export function Footer({ text }: Props) {
   return (
-    <address>
+    <footer>
       <p>{text}</p>
-    </address>
+    </footer>
   );
 }

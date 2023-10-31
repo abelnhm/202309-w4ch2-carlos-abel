@@ -1,6 +1,6 @@
-import { Header } from '../components/header/header';
-import { Footer } from '../components/footer/footer';
-import { FormAccessData } from '../components/form-acess/form.acess.data';
+import { Header } from '../header/header';
+import { Footer } from '../footer/footer';
+import { FormAccessData } from '../form-acess/form.acess.data';
 
 const title = 'Title';
 const text = 'Isdi Coders';

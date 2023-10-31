@@ -1,0 +1,30 @@
+.onboarding-part-two {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+
+    box-shadow: 0px 4px 23px -7px rgba(79, 79, 79, 0.9);
+    -webkit-box-shadow: 0px 4px 23px -7px rgba(79, 79, 79, 0.9);
+    -moz-box-shadow: 0px 4px 23px -7px rgba(79, 79, 79, 0.9);
+
+    input[type='text'],
+    input[type='email'],
+    input[type='date'],
+    input[type='submit'] {
+      width: 20rem;
+      height: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    input[type='submit'] {
+      height: 3rem;
+      cursor: pointer;
+    }
+  }
+}
