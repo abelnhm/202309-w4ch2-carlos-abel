@@ -1,7 +1,7 @@
 import './form.access.data.scss';
 
 type Props = {
-  status: string;
+  status: boolean;
 };
 
 export function FormAccessData({ status }: Props) {
