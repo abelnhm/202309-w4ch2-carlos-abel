@@ -1,7 +1,7 @@
 import { Header } from '../header/header';
 import { FormPersonalData } from '../form-personal/form.personal';
 import './app.scss';
-import { Footer } from '../footer/Footer';
+import { Footer } from '../footer/footer';
 const title = 'My page';
 const text = 'Isdi Coders';
 
