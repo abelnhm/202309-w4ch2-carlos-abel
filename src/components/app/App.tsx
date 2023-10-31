@@ -1,9 +1,8 @@
-
 import { Header } from '../header/header';
-import { Footer } from '../footer/footer';
 import { FormPersonalData } from '../form-personal/form.personal';
 import { FormAccessData } from '../form-acess/form.acess.data';
 import './app.scss';
+import { Footer } from '../footer/footer';
 const title = 'My page';
 const text = 'Isdi Coders';
 

@@ -3,18 +3,18 @@ import './form.personal.scss';
 import { user } from '../../data/repo';
 
 export function FormPersonalData() {
-  const [PersonalState, setPersonalState] = useState(user);
+  const [personalState, setPersonalState] = useState(user);
   const handleSubmit = (event: SyntheticEvent) => {
     event.preventDefault();
 
-    console.log(PersonalState);
+    console.log(personalState);
   };
 
   const handleChange = (ev: SyntheticEvent) => {
     const control = ev.target as HTMLInputElement;
     const value = control.type === 'checkbox' ? control.checked : control.value;
     const name = control.name;
-    setPersonalState({ ...PersonalState, [name]: value });
+    setPersonalState({ ...personalState, [name]: value });
   };
 
   return (
